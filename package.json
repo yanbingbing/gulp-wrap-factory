@@ -1,11 +1,16 @@
 {
   "name": "gulp-wrap-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wrap factory module",
   "repository": "https://github.com/yanbingbing/gulp-wrap-factory",
   "license": "MIT",
   "main": "index.js",
   "keywords": [
+    "gulpplugin",
     "wrap"
-  ]
+  ],
+  "dependencies": {
+    "map-stream": "^0.1.0",
+    "gulp-util": "^2.2.14"
+  }
 }
