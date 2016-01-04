@@ -1,0 +1,11 @@
+{
+  "name": "gulp-wrap-factory",
+  "version": "1.0.0",
+  "description": "wrap factory module",
+  "repository": "https://github.com/yanbingbing/gulp-wrap-factory",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "wrap"
+  ]
+}
