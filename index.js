@@ -34,7 +34,7 @@ function wrapper(code, name){
       '} else {',
         'global.'+ name +' = factory;',
       '}',
-    '})(this, function (window, document) {',
-      '(function () {'+code+'}).call(window)',
+    '})(this, function (window) {var document=window.document;',
+      'return (function () {return '+code+'}).call(window)',
     '});'];
 }
